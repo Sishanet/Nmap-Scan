@@ -1,0 +1,17 @@
+# Sample scan results (for GitHub upload)
+cat <<EOF > nmap_results.txt
+# Nmap scan report for <IP ADDRESS>
+Host is up (0.00013s latency).
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+443/tcp  open  https
+
+# Nmap scan report for <IP ADDRESS>
+Host is up (0.00015s latency).
+PORT     STATE SERVICE
+21/tcp   open  ftp
+23/tcp   open  telnet
+
+Nmap done: 256 IP addresses scanned, 2 hosts up
+EOF
